@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800;900&display=swap");
+
+
+
+.image {
+  height: 25px;
+  width: 25px;
+  margin: 0px 10px;
+}
+.image:hover {
+  cursor: pointer;
+}
+.filter {
+  display: flex;
+  align-items: center;
+}
+
+.dropflex {
+  display: flex;
+}
+
+.dropdown {
+  position: relative;
+  padding: 0;
+  margin-right: 1em;
+  border: none;
+}
+
+.dropdown summary {
+  list-style: none;
+  list-style-type: none;
+}
+
+.dropdown ul {
+  position: absolute;
+  margin: 50px 0 0 0;
+  padding: 20px 0;
+  width: 260px;
+  margin-left: -130px;
+  background: white;
+  border-radius: 6px;
+  list-style: none;
+}
+
+.dropdown ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown ul li a:link,
+.dropdown ul li a:visited {
+  display: inline-block;
+  padding: 10px 0.8rem;
+  width: 100%;
+  box-sizing: border-box;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown ul li a:hover {
+  background-color: #0084ff;
+  color: white;
+}
+
+.container {
+  margin: 20px 150px;
+}
+.main {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-top: 16px;
+}
+
+.items {
+  padding: 6px 14px;
+  width: auto;
+  height: 18px;
+  color: #0084ff;
+  border-radius: 20px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+  cursor: pointer;
+}
+.items:hover {
+  background-color: #0084ff;
+  color: white;
+}
+
+.all {
+  color: #fff;
+  background-color: #0084ff;
+}
+
+.main-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards {
+  display: block;
+  width: 31%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.text-section {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.43;
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 20px;
+  background-color: white;
+}
+.title {
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+  font-weight: 600;
+}
+
+.author-container {
+  padding: 10px 0px;
+}
+
+.author {
+  color: #0096ff;
+  font-size: 14px;
+  font-style: Italic;
+  font-weight: 500;
+}
+.date {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.description {
+  padding-bottom: 15px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #172146;
+  padding: 5px 15px;
+}
+.content {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}

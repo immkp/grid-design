@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800;900&display=swap");
+
+body {
+  background-color: #f2f6ff;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+.header {
+  padding: 16px 78px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  /* position: fixed;
+  width: 90%; */
+}
+.logo-explore,.quote-btn{
+ display: flex;
+}
+
+
+.logo {
+  width: 130px;
+  font-size: 32px;
+  color: #0084ff;
+  font-weight: 900 !important;
+}
+
+.logo-stories-text {
+  margin: 0;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+}
+.stories{
+ width: 200px;
+}
+
+.dropdowntext {
+  color: #000;
+  margin-top: 5px;
+  font-weight: 600;
+}
+button {
+  width: auto;
+  height: 40px;
+  min-width: 100px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  border-radius: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  padding: 8px 32px;
+  margin-right: 16px;
+  color: #fff;
+  outline: none;
+  font-family: Raleway, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03em;
+  background: #0084ff;
+  width: 200px;
+  background: -webkit-linear-gradient(269deg, #0048ff, #0096ff);
+  background: -webkit-linear-gradient(181deg, #0048ff, #0096ff);
+}
+
+.quote {
+  width: 350px;
+  color: #C3C2C2;
+}
