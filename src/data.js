@@ -85,7 +85,7 @@ export const cards = [
     id: 6,
     title: "edYoda Meetup #01 : A Date with Cloud",
     description:
-      "As a matter of fact, sometimes we do get biased towards cloud services and see only the greener side of it. To do some reality check for us, as well as for other cloud practitioners we at edYoda planned a Tech Meetup on cloud services.",
+      "As a matter of fact, sometimes we do get biased towards cloud services and see only the greener side of it. To do some reality check for us, cloud practitioners as well as well as for other cloud practitioners we at edYoda planned a Tech Meetup on cloud services.",
     image: "https://edyoda.s3.amazonaws.com/media/blog-images/7.png",
     posted_on: "| 05 Jul 2019",
     authorname: "Ashish Pandey",
